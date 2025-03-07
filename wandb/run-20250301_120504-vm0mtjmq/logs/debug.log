@@ -1,0 +1,6 @@
+2025-03-01 12:05:04,219 INFO    MainThread:12836 [wandb_init.py:setup_run_log_directory():647] Logging user logs to c:\Users\daris\Desktop\School\EEWS\wandb\run-20250301_120504-vm0mtjmq\logs\debug.log
+2025-03-01 12:05:04,219 INFO    MainThread:12836 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to c:\Users\daris\Desktop\School\EEWS\wandb\run-20250301_120504-vm0mtjmq\logs\debug-internal.log
+2025-03-01 12:05:04,219 INFO    MainThread:12836 [wandb_init.py:init():761] calling init triggers
+2025-03-01 12:05:04,219 INFO    MainThread:12836 [wandb_init.py:init():766] wandb.init called with sweep_config: {}
+config: {'batch_size': 256, 'lr': 0.001, 'num_epochs': 1, 'l1_lambda': 1e-09, 'l2_lambda': 1e-10, 'model': 'LSTMModel', '_wandb': {}}
+2025-03-01 12:05:04,220 INFO    MainThread:12836 [wandb_init.py:init():776] wandb.init() called while a run is active
