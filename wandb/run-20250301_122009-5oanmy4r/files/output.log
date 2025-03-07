@@ -1,0 +1,4 @@
+Using device: cuda
+                                                                                            =2.24e-9]
+Epoch [1/1], Train Loss: 0.000034015, Val Loss: 0.000000039
+Best Epoch: 1 with Val Loss: 0.000000039
