@@ -1,0 +1,7 @@
+{"time":"2025-03-01T12:17:23.4846797-08:00","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"c:\\Users\\daris\\Desktop\\School\\EEWS\\wandb\\run-20250301_121723-bc0o5har\\logs\\debug-core.log"}
+{"time":"2025-03-01T12:17:23.7805964-08:00","level":"INFO","msg":"created new stream","id":"bc0o5har"}
+{"time":"2025-03-01T12:17:23.7805964-08:00","level":"INFO","msg":"stream: started","id":"bc0o5har"}
+{"time":"2025-03-01T12:17:23.7805964-08:00","level":"INFO","msg":"handler: started","stream_id":"bc0o5har"}
+{"time":"2025-03-01T12:17:23.7805964-08:00","level":"INFO","msg":"sender: started","stream_id":"bc0o5har"}
+{"time":"2025-03-01T12:17:23.7805964-08:00","level":"INFO","msg":"writer: Do: started","stream_id":"bc0o5har"}
+{"time":"2025-03-01T12:17:23.9470974-08:00","level":"INFO","msg":"Starting system monitor"}

@@ -1,0 +1,18 @@
+{"time":"2025-03-01T12:20:09.1726924-08:00","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"c:\\Users\\daris\\Desktop\\School\\EEWS\\wandb\\run-20250301_122009-5oanmy4r\\logs\\debug-core.log"}
+{"time":"2025-03-01T12:20:09.5284785-08:00","level":"INFO","msg":"created new stream","id":"5oanmy4r"}
+{"time":"2025-03-01T12:20:09.5284785-08:00","level":"INFO","msg":"stream: started","id":"5oanmy4r"}
+{"time":"2025-03-01T12:20:09.5284785-08:00","level":"INFO","msg":"handler: started","stream_id":"5oanmy4r"}
+{"time":"2025-03-01T12:20:09.5284785-08:00","level":"INFO","msg":"sender: started","stream_id":"5oanmy4r"}
+{"time":"2025-03-01T12:20:09.5284785-08:00","level":"INFO","msg":"writer: Do: started","stream_id":"5oanmy4r"}
+{"time":"2025-03-01T12:20:09.7935313-08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-01T12:35:31.5777331-08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/daris-chen-uc-san-diego/my_project/5oanmy4r/file_stream\": read tcp 192.168.1.90:51004->35.186.228.49:443: wsarecv: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond."}
+{"time":"2025-03-01T12:35:52.7701305-08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/daris-chen-uc-san-diego/my_project/5oanmy4r/file_stream\": read tcp 192.168.1.90:51012->35.186.228.49:443: wsarecv: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond."}
+{"time":"2025-03-01T12:39:21.3442492-08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-01T12:39:21.3458721-08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-01T12:39:21.9416515-08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-01T12:39:22.0714975-08:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2025-03-01T12:39:23.0988711-08:00","level":"INFO","msg":"stream: closing","id":"5oanmy4r"}
+{"time":"2025-03-01T12:39:23.0988711-08:00","level":"INFO","msg":"handler: closed","stream_id":"5oanmy4r"}
+{"time":"2025-03-01T12:39:23.0988711-08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"5oanmy4r"}
+{"time":"2025-03-01T12:39:23.0995057-08:00","level":"INFO","msg":"sender: closed","stream_id":"5oanmy4r"}
+{"time":"2025-03-01T12:39:23.0995057-08:00","level":"INFO","msg":"stream: closed","id":"5oanmy4r"}
