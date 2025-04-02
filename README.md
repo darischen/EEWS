@@ -8,6 +8,7 @@ Currently implementing a stock prediction LSTM RNN model using cuda and torch
 - The dataset is sourced from Yahoo Finance
 - The model is trained on the opening and closing price, trade volume, the high, low, and adj close of each day.
 - The model uses the last 20 days to make predictions
+- Some training session with notably low losses have been saved in the .pth files, with the names denoting the loss.
 
 ## Future implementations
 - The model will take into account
