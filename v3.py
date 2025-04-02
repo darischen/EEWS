@@ -108,11 +108,11 @@ def train_model(X_train, y_train, X_test, y_test, look_back):
     optimizer = optim.Adam(model.parameters(), lr=1e-3)
     
     l1_lambda = 1e-10
-    l2_lambda = 6.9e-10
+    l2_lambda = 7.25e-10
     
     best_val_loss = float('inf')
     best_epoch = -1
-    num_epochs = 15
+    num_epochs = 17
     for epoch in range(num_epochs):
         model.train()
         running_loss = 0.0
