@@ -11,6 +11,7 @@ Currently implementing a stock prediction LSTM RNN model using cuda and torch
 - Some training session with notably low losses have been saved in the .pth files, with the names denoting the loss.
 
 ## Future implementations
+- Early Stop 
 - The model will take into account
   - Bollinger bands
   - Stochastic Oscillator
