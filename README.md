@@ -12,6 +12,7 @@ Currently implementing a stock prediction LSTM RNN model using cuda and torch
 
 ## Future implementations
 - Early Stop 
+- Using Optuna for hyperparameter tuning
 - The model will take into account
   - Bollinger bands
   - Stochastic Oscillator

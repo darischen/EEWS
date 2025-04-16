@@ -47,7 +47,7 @@ def load_and_preprocess_data():
     train_data = scaled_data[:train_size]
     test_data = scaled_data[train_size:]
     
-    def create_dataset(dataset, look_back=1):
+    def create_dataset(dataset, look_back=20):
         X, y = [], []
         for i in range(len(dataset) - look_back):
             X.append(dataset[i:(i + look_back), :])
@@ -163,7 +163,7 @@ def evaluate_and_plot(scaler, look_back, data, BEST_EPOCH, BEST_VAL_LOSS):
     print("Checking for NaN values in data:", np.isnan(scaled_nvda).any())
     print("Checking for infinity values in data:", np.isinf(scaled_nvda).any())
     
-    def create_dataset(dataset, look_back=1):
+    def create_dataset(dataset, look_back=20):
         X, y = [], []
         for i in range(len(dataset) - look_back):
             X.append(dataset[i:(i + look_back), :])
