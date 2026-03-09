@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(eews)",
+      "Bash(data \")",
+      "Bash(ls:*)"
+    ]
+  }
+}
