@@ -1,0 +1,20 @@
+# Data (auto-discovers all tickers from ../data/stocks and ../data/etfs)
+data_path: ../data
+seq_length: 60
+
+# Model
+input_dim: 6  # open, high, low, close, volume, sentiment
+d_model: 128
+nhead: 8
+num_layers: 4
+dim_feedforward: 512
+dropout: 0.15
+
+# Training
+batch_size: 4096
+epochs: 50
+learning_rate: 5e-4
+patience: 15
+
+# Checkpoints
+checkpoint_path: checkpoints/best_transformer.pth
