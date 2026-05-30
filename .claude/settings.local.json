@@ -3,7 +3,8 @@
     "allow": [
       "Bash(eews)",
       "Bash(data \")",
-      "Bash(ls:*)"
+      "Bash(ls:*)",
+      "Bash(git push:*)"
     ]
   }
 }
