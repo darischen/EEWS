@@ -102,28 +102,28 @@ EEWS/
 
 ## Core Features
 
-### 🎯 Multi-Horizon Forecasting
+### Multi-Horizon Forecasting
 Predict 3 different time horizons simultaneously:
 - **1-day**: Intraday or next-day trading decisions
 - **5-day**: Medium-term trends
 - **20-day**: Monthly portfolio rebalancing
 
-### 📊 Uncertainty Quantification
+### Uncertainty Quantification
 Uses Monte Carlo dropout to estimate prediction confidence:
 - Narrow bands = high confidence
 - Wide bands = high uncertainty
 - Critical for risk-aware trading
 
-### 🔄 Automatic Data Updates
+### Automatic Data Updates
 - Auto-discovers all 8,048 tickers from `data/` directory
 - Fetches only NEW data since last run (incremental updates)
 - Updates CSV files in-place
 - Handles failed tickers gracefully (continues with others)
 
-### ⚡ Fast Predictions
+### Fast Predictions
 Single-ticker forecasts in 1-2 seconds (CPU) or 0.5-1 sec (GPU).
 
-### 🎨 Interactive Visualization
+### Interactive Visualization
 4-panel matplotlib charts showing:
 - Historical prices with forecast points
 - Multi-horizon comparison with confidence bands
